@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Order.ChiTietOrder">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Quan Ly Order"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/edtmaOrder_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập Ma Order" />
+
+    <EditText
+        android:id="@+id/edtMaKH_chitiet_Or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Ma Khach Hang" />
+
+    <EditText
+        android:id="@+id/edtMaBan_chitiet_Or"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập Ma Ban"
+        />
+    <EditText
+        android:id="@+id/edtGiamGia_chitiet_Or"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập Giam Gia"
+        />
+    <EditText
+        android:id="@+id/edtTongTien_chitiet_Or"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tong Tien"
+        />
+    <EditText
+        android:id="@+id/edtTienKhachDua_chitiet_Or"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tien Khach Dua"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnCTXoaOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"/>
+
+        <Button
+            android:id="@+id/btnCTSuaOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"/>
+        <Button
+            android:id="@+id/btnCTBackOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QuayLai"/>
+        <Button
+            android:id="@+id/btnDocOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanh Toan"/>
+    </LinearLayout>
+</LinearLayout>

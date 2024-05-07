@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnNhanVien"
+        android:title="Nhan Vien" />
+    <item
+        android:id="@+id/mnCongViec"
+        android:title="Cong Viec" />
+    <item
+        android:id="@+id/mnThongKe"
+        android:title="Thong Ke" />
+    <item
+        android:id="@+id/mnThoat"
+        android:title="Thoat" />
+</menu>

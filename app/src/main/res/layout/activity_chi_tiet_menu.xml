@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu.ChiTietMenu">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Quan Ly Mon An"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/maMn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập Ma Mon An" />
+
+    <EditText
+        android:id="@+id/tenMn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Ten Mon An" />
+    <EditText
+        android:id="@+id/donGiaMn"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Don Gia" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnCTXoaMn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"/>
+
+        <Button
+            android:id="@+id/btnCTSuaMn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"/>
+        <Button
+            android:id="@+id/btnCTBackMn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QuayLai"/>
+    </LinearLayout>
+
+</LinearLayout>

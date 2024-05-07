@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NhanVien.CongViecNhanVien">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Cong Viec"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap Ma Nhan Vien"
+        android:id="@+id/edtmaCVCuaNV_them"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap Ten Nhan Vien"
+        android:id="@+id/edtTenCVCuaNV_them"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm" />
+
+        <Button
+            android:id="@+id/btnShowCV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doc Danh Sach" />
+
+        <Button
+            android:id="@+id/btnQuayLai1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay lại" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvDanhSachCongViecCuaNhanVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

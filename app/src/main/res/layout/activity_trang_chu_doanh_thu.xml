@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawerLayout"
+    tools:context=".DoanhThu.TrangChuDoanhThu">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Doanh Thu Theo Nam"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap Thang"
+        android:id="@+id/Nam"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap Thang Can Xoa"
+        android:id="@+id/XoaNam"/>
+
+    <ListView
+        android:id="@+id/lvDanhSachDoanhThu"
+        android:layout_width="match_parent"
+        android:layout_height="257dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/docDoanhThu"
+            android:text="Doc Du Lieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/xoaDoanhThu"
+            android:text="Xoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnThoatDoanhThu"
+            android:text="Thoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
